@@ -1,0 +1,77 @@
+/*整体布局，footer置底 sticky footer*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    min-height: 100%;
+    margin-bottom: -60px;
+}
+
+#footer, #push {
+    height: 60px;
+}
+
+
+/*sticky_sidebar*/
+.sidebar {
+    will-change: min-height;
+}
+
+.sidebar__inner {
+    transform: translate(0, 0);
+    transform: translate3d(0, 0, 0);
+    will-change: position, transform;
+}
+
+/*回到顶部箭头*/
+/*  {#按钮边框的大小位置样式#}*/
+.toTop-arrow {
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 33%;
+    opacity: 0.7;
+    background: black;
+    cursor: pointer;
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    display: none;
+}
+
+/*{#绘制按钮中的向上箭头#}*/
+.toTop-arrow::before, .toTop-arrow::after {
+    width: 31px;
+    height: 7px;
+    border-radius: 3px;
+    background: orange;
+    position: absolute;
+    content: "";
+}
+
+.toTop-arrow::before {
+    transform: rotate(-45deg) translate(0, -50%);
+    left: 0.4rem;
+}
+
+.toTop-arrow::after {
+    transform: rotate(45deg) translate(0, -50%);
+    right: 0.4rem;
+}
+
+.toTop-arrow:focus {
+    outline: none;
+}
+
+/*通知访问前后颜色变化*/
+#notice_link a:link {
+    color: black;
+}
+
+#notice_link a:visited {
+    color: lightgrey;
+}

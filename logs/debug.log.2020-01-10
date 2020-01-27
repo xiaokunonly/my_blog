@@ -1,0 +1,16 @@
+WARNING 2020-01-10 16:44:09,459 log 3940 14820 Not Found: /favicon.ico
+ERROR 2020-01-10 16:52:56,876 log 3940 8292 Internal Server Error: /article/article-detail/100/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\djangoproject\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\envs\djangoproject\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\ProgramData\Anaconda3\envs\djangoproject\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\django_project\my_blog\article\views.py", line 51, in article_detail
+    article = ArticlePost.objects.get(id=id)
+  File "C:\ProgramData\Anaconda3\envs\djangoproject\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\envs\djangoproject\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+article.models.ArticlePost.DoesNotExist: ArticlePost matching query does not exist.

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8958cfd0-52a5-42d1-8bee-7687fd4c5e39" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Uvc8g3DGa8iqueiYZTxE8scUOO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\django_project\my_blog\templates\account" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\django_project\my_blog\templates\comment" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="my_blog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="my_blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="my_blog.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Program Files (x86)\Anaconda3\envs\my_blog\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="true" />
+      <option name="port" value="8080" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://localhost:8080" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8958cfd0-52a5-42d1-8bee-7687fd4c5e39" name="Default Changelist" comment="" />
+      <created>1576240351843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576240351843</updated>
+      <workItem from="1576240365438" duration="5464000" />
+      <workItem from="1576425247888" duration="182000" />
+      <workItem from="1576468225380" duration="2803000" />
+      <workItem from="1577513801771" duration="439000" />
+      <workItem from="1577679926218" duration="145466000" />
+      <workItem from="1578891689356" duration="730000" />
+      <workItem from="1578895839286" duration="15558000" />
+      <workItem from="1580101411791" duration="2903000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580104537067">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="316" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1576240553749" />
+    <state x="361" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580104537067" />
+    <state x="648" y="291" key="EnvironmentVariablesDialog" timestamp="1578891795727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="648" y="291" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578891795727" />
+    <state x="734" y="299" key="FileChooserDialogImpl" timestamp="1580101470932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="642" y="290" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1577513882281" />
+    <state x="734" y="299" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580101470932" />
+    <state width="1340" height="328" key="GridCell.Tab.0.bottom" timestamp="1580104538536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1636" height="322" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1578809190229" />
+    <state width="1340" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580104538536" />
+    <state width="1340" height="328" key="GridCell.Tab.0.center" timestamp="1580104538536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1636" height="322" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1578809190229" />
+    <state width="1340" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580104538536" />
+    <state width="1340" height="328" key="GridCell.Tab.0.left" timestamp="1580104538536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1636" height="322" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1578809190228" />
+    <state width="1340" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580104538536" />
+    <state width="1340" height="328" key="GridCell.Tab.0.right" timestamp="1580104538536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1636" height="322" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1578809190229" />
+    <state width="1340" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580104538536" />
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1580104538482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1636" height="322" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1578809190229" />
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580104538482" />
+    <state width="1340" height="328" key="GridCell.Tab.1.center" timestamp="1580104538482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1636" height="322" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1578809190229" />
+    <state width="1340" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580104538482" />
+    <state width="1340" height="328" key="GridCell.Tab.1.left" timestamp="1580104538482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1636" height="322" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1578809190229" />
+    <state width="1340" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580104538482" />
+    <state width="1340" height="328" key="GridCell.Tab.1.right" timestamp="1580104538482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1636" height="322" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1578809190229" />
+    <state width="1340" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580104538482" />
+    <state width="1340" height="328" key="GridCell.Tab.2.bottom" timestamp="1580104538482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1636" height="322" key="GridCell.Tab.2.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1578809190003" />
+    <state width="1340" height="328" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580104538482" />
+    <state width="1340" height="328" key="GridCell.Tab.2.center" timestamp="1580104538482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1636" height="322" key="GridCell.Tab.2.center/0.0.1680.1010@0.0.1680.1010" timestamp="1578809190003" />
+    <state width="1340" height="328" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580104538482" />
+    <state width="1340" height="328" key="GridCell.Tab.2.left" timestamp="1580104538482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1636" height="322" key="GridCell.Tab.2.left/0.0.1680.1010@0.0.1680.1010" timestamp="1578809190003" />
+    <state width="1340" height="328" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580104538482" />
+    <state width="1340" height="328" key="GridCell.Tab.2.right" timestamp="1580104538482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1636" height="322" key="GridCell.Tab.2.right/0.0.1680.1010@0.0.1680.1010" timestamp="1578809190003" />
+    <state width="1340" height="328" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580104538482" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1578579599234">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1680.1010@0.0.1680.1010" timestamp="1578579599234" />
+    <state x="415" y="172" key="SettingsEditor" timestamp="1580103412130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="363" y="167" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1578805872622" />
+    <state x="415" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580103412130" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1578916621927">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1578916621927" />
+    <state x="619" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1580101413396">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="542" y="358" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1577679934524" />
+    <state x="619" y="369" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580101413396" />
+    <state x="600" y="270" width="768" height="699" key="search.everywhere.popup" timestamp="1578922542390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="525" y="262" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1578804587079" />
+    <state x="600" y="270" width="768" height="699" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578922542390" />
+  </component>
+</project>

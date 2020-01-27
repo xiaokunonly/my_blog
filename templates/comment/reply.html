@@ -1,0 +1,49 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+</head>
+<body>
+<form
+        action=".."
+        method="POST"
+        id="reply_form"
+>
+    {% csrf_token %}
+    <div class="form-group">
+        <div id="test">
+            {{ comment_form.media }}
+            {{ comment_form.body }}
+        </div>
+    </div>
+</form>
+<button onclick="confirm_submit({{ article_id }},{{ parent_comment_id }})"class="btn btn-primary">发送</button>
+<script src="{% static 'jquery/jquery-3.4.1.min.js' %}"></script>
+<script src="{% static 'popper/popper.js' %}"></script>
+<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+{#csrf_token#}
+<script src="{% static 'csrf.js' %}"></script>
+{#单独的一个iframe html#}
+<script>
+    $(function () {
+        $('.django-ckeditor-widget').removeAttr('style')
+    });
+    function confirm_submit(article_id,comment_id) {
+        let content=CKEDITOR.instances['id_body'].getData();
+        $.ajax({
+            url:'/comment/post-comment/'+article_id+'/'+comment_id,
+            type:'POST',
+            data:{body:content},
+            success:function (e) {
+                if(e.code==='200 OK'){
+                    let urltemp="{% url 'article:article_detail' article_id %}"
+                    parent.post_reply_and_show_it(urltemp,e.new_comment_id);
+                }
+            }
+        })
+    }
+</script>
+</body>
+</html>
