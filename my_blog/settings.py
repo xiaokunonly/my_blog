@@ -114,14 +114,15 @@ WSGI_APPLICATION = 'my_blog.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
+import pymysql         # 一定要添加这两行！           
+pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'my_blog_db',
 		'USER':'root',
 		'PASSWORD':'xiaokuN521',
-		'HOST':'db',
+		'HOST':'101.132.74.181'
 		'PORT':'3306',
 		'OPTIONS':{'charset':'utf8mb4'},
     }
