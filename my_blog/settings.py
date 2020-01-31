@@ -26,6 +26,7 @@ SECRET_KEY = '@3%ca-1*5u0ejbhlv86#%2#5cv__(u1=7ho5xy%=&0xya(p6s@'
 DEBUG = False
 
 ALLOWED_HOSTS = ['101.132.74.181']
+#ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -111,18 +112,15 @@ AUTHENTICATION_BACKENDS=(
 
 WSGI_APPLICATION = 'my_blog.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-import pymysql         # 一定要添加这两行！           
-pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'my_blog_db',
 		'USER':'root',
 		'PASSWORD':'xiaokuN521',
-		'HOST':'101.132.74.181',
+		'HOST':'127.0.0.1',
 		'PORT':'3306',
 		'OPTIONS':{'charset':'utf8mb4'},
     }
@@ -165,10 +163,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 STATICFILES_DIRS=(
-    os.path.join(BASE_DIR,"collected_static"),
+    os.path.join(BASE_DIR,"static"),
 )
 STATIC_URL = '/static/'
-
+#静态文件收集目录
+STATIC_ROOT = os.path.join(BASE_DIR,'collected_static')
 #SMTP简单邮件传输协议 (Simple Mail Transfer Protocol, SMTP)
 EMAIL_HOST='smtp.qq.com'
 EMAIL_HOST_USER='717556676@qq.com'

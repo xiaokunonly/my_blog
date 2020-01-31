@@ -38,6 +38,7 @@
                             {{ user.username }}</a>
                         {#                下拉菜单#}
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			    <a href="{% url 'article:article_create' %}" class="dropdown-item">写文章</a>
                             <a href="{% url 'notice:list' %}" class="dropdown-item">通知
                                 {% if unread_count %}
                                     <span class="badge badge-danger">{{ unread_count }}</span>
