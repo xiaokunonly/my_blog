@@ -122,7 +122,7 @@ DATABASES = {
         'NAME': 'my_blog_db',
 		'USER':'root',
 		'PASSWORD':'xiaokuN521',
-		'HOST':'101.132.74.181'
+		'HOST':'101.132.74.181',
 		'PORT':'3306',
 		'OPTIONS':{'charset':'utf8mb4'},
     }
